@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+
+option go_package = ".";
+
+
+package thumbnail;
+
+message Response {
+    string ID = 1;
+    bool CacheHit = 2;
+    bytes Image = 3;
+}
+
+message Request {
+    string URL = 1;
+}
+
+service ThubmnailDownloader {
+    rpc Download (Request) returns (Response) {}
+}
+

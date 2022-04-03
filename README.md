@@ -3,12 +3,12 @@
 ## Сборка и запуск сервера
 Склонировать проект
 ```bash
-git clone 
+git clone git@github.com/kratorr/youtube-thumbnail
 ```
 
 Перейти в директорию с проектом 
 ```bash
-cd 
+cd youtube-thumbnail 
 ```
 
 Сборка
